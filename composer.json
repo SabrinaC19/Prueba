@@ -1,0 +1,21 @@
+{
+    "name": "reporte_cita/content",
+    "description": "Reporte de citas",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "setasign/fpdf": "^1.8"
+    },
+    "license": "001",
+    "autoload": {
+        "psr-4": {
+            "ReporteCita\\Content\\": "content/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sabrina Colmenarez"
+        }
+    ],
+    "minimum-stability": "beta"
+}
